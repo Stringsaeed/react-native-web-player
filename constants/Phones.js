@@ -23,6 +23,15 @@
 // Devices, taken from the framerjs codebase
 // Devices have pixel density of 2, but we also zoom in for visibility at small sizes.
 export default {
+  iosX: {
+    deviceImageUrl: 'https://cdn.jsdelivr.net/gh/koenbok/Framer@master/extras/DeviceResources/apple-iphone-x-silver.png',
+    deviceImageWidth: 1405,
+    deviceImageHeight: 2796,
+    screenWidth: 1125,
+    screenHeight: 2436,
+    devicePixelDensity: 3,
+    zoom: 1.5,
+  },
   ios: {
     deviceImageUrl: 'https://cdn.rawgit.com/koenbok/Framer/master/extras/DeviceResources/iphone-6-silver.png',
     deviceImageWidth: 870,
